@@ -1,0 +1,103 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: white; 
+    color: black;            
+    margin: 0;
+} 
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    background: white;
+}
+
+header {
+    text-align: center;
+    background: white;      
+    color: black;           
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.imagen-header {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;    
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: black;           
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background: #ddd;      
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+.contenido {
+    flex: 3;
+}
+
+aside {
+    flex: 1;
+    background: #f9f9f9;    
+    padding: 15px;
+    margin-left: 20px;
+    border: 1px solid #eee;
+}
+
+footer {
+    background: white;     
+    color: black;           
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.imagen-vertical {
+    width: 100%;
+    max-width: 220px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.contenedor-subir {
+    display: inline-block;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+
+.flecha-mini {
+    width: 23px;         
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease; 
+}
+
+.flecha-mini:hover {
+    transform: scale(1.2); 
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
